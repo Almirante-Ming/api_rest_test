@@ -8,8 +8,8 @@ require 'json'
 DB = PG.connect(
   dbname: 'postgres',     # Substitua pelo nome do seu banco
   user: 'postgres',             # Substitua pelo seu usuário
-  password: 'masterkey',           # Substitua pela sua senha
-  host: 'localhost',               # Ou outro host, se aplicável
+  password: 'root',           # Substitua pela sua senha
+  host: 'db',               # Ou outro host, se aplicável
   port: 5432                       # Porta padrão do PostgreSQL
 )
 
