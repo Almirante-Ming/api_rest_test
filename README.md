@@ -1,0 +1,1 @@
+api rest usando sinatra e postgres como banco de dados, com o objetivo de fornecer uma conexao facil para enviar, receber e editar produtos via protocolo https, feito como demonstracao para um projeto futuro
